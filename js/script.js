@@ -104,14 +104,14 @@ document.addEventListener("DOMContentLoaded", () => {
       };
     });
 
-    function showError(inputElement, mensagem){
+    function showError(inputElement, menssagem){
       const formGroup = inputElement.parentElement;
 
       inputElement.classList.add("input-error");
 
       const errorMensagem = document.createElement("small");
       errorMensagem.className = "error-text";
-      errorMensagem.innerText = mensagem;
+      errorMensagem.innerText = menssagem;
       formGroup.appendChild(errorMensagem);
     };
 
